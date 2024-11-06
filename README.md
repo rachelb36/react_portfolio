@@ -30,6 +30,10 @@ You can check out the live demo of this portfolio
 
 ## Installation
 
+To deploy on Netlify, navigate to:
+<https://rachelbreactportfolio.netlify.app/>
+
+
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/rachelb36/react_portfolio.git

@@ -1,37 +1,37 @@
 [
   {
     "title": "Note Taker App",
-    "image": "public/images/note_taker_app.png",
+    "image": "/images/note_taker_app.png",
     "technologies": ["Node.js", "Express"],
     "link": "https://note-taker-app-g96i.onrender.com/"
   },
   {
     "title": "Kanban Board",
-    "image": "public/images/kanbanboard.png",
+    "image": "/images/kanbanboard.png",
     "technologies": ["Third Party APIs", "JQuery"],
     "link": "https://github.com/rachelb36/kanbanboard"
   },
   {
     "title": "Weather Dashboard",
-    "image": "public/images/weather_dashboard.png",
+    "image": "/images/weather_dashboard.png",
     "technologies": ["JQuery", "Third Party APIs", "JavaScript", "HTML"],
     "link": "https://rachelb36.github.io/weather_dashboard/"
   },
   {
     "title": "Linkup",
-    "image": "public/images/linkup.png",
+    "image": "/images/linkup.png",
     "technologies": ["MERN Stack", "React", "Node.js", "Express", "MongoDB", "GraphQL"],
     "link": "https://linkup-5oc1.onrender.com"
   },
   {
     "title": "Employee Tracker",
-    "image": "public/images/employee_tracker.png",
+    "image": "/images/employee_tracker.png",
     "technologies": ["SQL", "Node.js"],
     "link": "https://github.com/rachelb36/employee-payroll-tracker"
   },
   {
     "title": "Personal Blog",
-    "image": "public/images/personalblog.png",
+    "image": "/images/personalblog.png",
     "technologies": ["HTML", "CSS", "localStorage"],
     "link": "https://github.com/rachelb36/personal_blog"
   }
