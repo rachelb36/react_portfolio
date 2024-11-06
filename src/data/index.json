@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Note Taker App",
+    "image": "src/assets/projects/note_taker_app.png",
+    "technologies": ["Node.js", "Express"],
+    "link": "https://note-taker-app-g96i.onrender.com/"
+  },
+  {
+    "title": "Kanban Board",
+    "image": "src/assets/projects/kanbanboard.png",
+    "technologies": ["Third Party APIs", "JQuery"],
+    "link": "https://github.com/rachelb36/kanbanboard"
+  },
+  {
+    "title": "Weather Dashboard",
+    "image": "src/assets/projects/weather_dashboard.png",
+    "technologies": ["JQuery", "Third Party APIs", "JavaScript", "HTML"],
+    "link": "https://rachelb36.github.io/weather_dashboard/"
+  },
+  {
+    "title": "Linkup",
+    "image": "src/assets/projects/linkup.png",
+    "technologies": ["MERN Stack", "React", "Node.js", "Express", "MongoDB", "GraphQL"],
+    "link": "https://linkup-5oc1.onrender.com"
+  },
+  {
+    "title": "Employee Tracker",
+    "image": "src/assets/projects/employee_tracker.png",
+    "technologies": ["SQL", "Node.js"],
+    "link": "https://github.com/rachelb36/employee-payroll-tracker"
+  },
+  {
+    "title": "Personal Blog",
+    "image": "src/assets/projects/personalblog.png",
+    "technologies": ["HTML", "CSS", "localStorage"],
+    "link": "https://github.com/rachelb36/personal_blog"
+  }
+]
