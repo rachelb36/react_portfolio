@@ -1,8 +1,11 @@
-# React + Vite
+# React Challenge: React Portfolio
+## React + Vite
+## Module 20: Challenge
+
 
 # React Portfolio
-
-![Portfolio Screenshot](path/to/screenshot.png) <!-- Replace with actual path to a screenshot image -->
+You can check out the live demo of this portfolio 
+![screenshot](src/assets/portfolio_screenshot.png).
 
 A personal portfolio built with React to showcase projects, skills, and contact information. The portfolio is designed with Material-UI for a modern, responsive layout and includes smooth scrolling and interactive sections.
 
@@ -22,11 +25,6 @@ A personal portfolio built with React to showcase projects, skills, and contact 
 - **Contact Form**: Users can submit their contact information with validation.
 - **Portfolio Showcase**: Displays project cards with descriptions, technologies used, and links to live projects or GitHub repositories.
 - **Reusable Components**: Organized structure with reusable components for easy maintenance and scaling.
-
-## Demo
-
-You can check out the live demo of this portfolio 
-![screenshot](src/assets/portfolio_screenshot.png).
 
 ## Installation
 
