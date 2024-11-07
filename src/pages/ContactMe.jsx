@@ -8,6 +8,8 @@ import {
   Box,
   Grid,
 } from "@mui/material";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -26,26 +28,46 @@ const ContactMe = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const isValidEmail = (email) => {
+    // Basic email validation pattern
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Simple validation for empty fields
+    // Check for empty fields
     const newErrors = {
       name: !formData.name,
-      email: !formData.email,
+      email: !formData.email || !isValidEmail(formData.email),
       message: !formData.message,
     };
     setErrors(newErrors);
 
+    // Show toast messages for empty fields or invalid email
+    if (!formData.name) {
+      toast.error("Name is required");
+    }
+    if (!formData.email) {
+      toast.error("Email is required");
+    } else if (!isValidEmail(formData.email)) {
+      toast.error("Please enter a valid email address");
+    }
+    if (!formData.message) {
+      toast.error("Message cannot be empty");
+    }
+
+    // Submit if there are no errors
     if (!newErrors.name && !newErrors.email && !newErrors.message) {
       console.log("Form submitted:", formData);
-      alert("Your message has been sent!");
+      toast.success("Your message has been sent!");
       setFormData({ name: "", email: "", message: "" });
     }
   };
 
   return (
     <>
+      <ToastContainer />
       <Container id="contact" maxWidth="sm">
         <Box
           sx={{

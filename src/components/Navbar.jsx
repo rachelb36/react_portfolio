@@ -50,7 +50,7 @@ const Navbar = () => {
         </Button>
       </ScrollLink>
       <a
-        href="/path/to/resume.pdf" // Replace with the actual path to your PDF
+        href="../public/assets/rachel_burgos_old_resume.pdf" // Replace with the actual path to your PDF
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
