@@ -5,18 +5,92 @@ import { Link as ScrollLink } from "react-scroll";
 const Navbar = () => {
   return (
     <Box sx={{ display: "flex", gap: 2 }}>
-      <ScrollLink to="about-me" smooth={true} duration={800} offset={-70}>
-        <Button color="inherit">About Me</Button>
+      <ScrollLink
+        to="about-me"
+        smooth={true}
+        duration={800}
+        offset={-70}
+        activeClass="active"
+      >
+        <Button
+          color="inherit"
+          sx={{
+            color: "#5A9EC9", // Grayish-blue color
+            "&:hover": {
+              color: "#4A90E2", // Slightly darker on hover
+            },
+            "&.active": {
+              color: "#3B7AB8", // Even darker shade when active
+            },
+          }}
+        >
+          About Me
+        </Button>
       </ScrollLink>
-      <ScrollLink to="portfolio" smooth={true} duration={800} offset={-70}>
-        <Button color="inherit">Portfolio</Button>
+      <ScrollLink
+        to="portfolio"
+        smooth={true}
+        duration={800}
+        offset={-70}
+        activeClass="active"
+      >
+        <Button
+          color="inherit"
+          sx={{
+            color: "#5A9EC9",
+            "&:hover": {
+              color: "#4A90E2",
+            },
+            "&.active": {
+              color: "#3B7AB8",
+            },
+          }}
+        >
+          Portfolio
+        </Button>
       </ScrollLink>
-      <ScrollLink to="contact" smooth={true} duration={800} offset={-70}>
-        <Button color="inherit">Contact Me</Button>
+      <a
+        href="/path/to/resume.pdf" // Replace with the actual path to your PDF
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none" }}
+      >
+        <Button
+          color="inherit"
+          sx={{
+            color: "#5A9EC9",
+            "&:hover": {
+              color: "#4A90E2",
+            },
+          }}
+        >
+          Resume
+        </Button>
+      </a>
+      <ScrollLink
+        to="contact"
+        smooth={true}
+        duration={800}
+        offset={-70}
+        activeClass="active"
+      >
+        <Button
+          color="inherit"
+          sx={{
+            color: "#5A9EC9",
+            "&:hover": {
+              color: "#4A90E2",
+            },
+            "&.active": {
+              color: "#3B7AB8",
+            },
+          }}
+        >
+          Contact Me
+        </Button>
       </ScrollLink>
     </Box>
   );
 };
 
 export default Navbar;
-
